@@ -17,7 +17,7 @@ or into a Latin based phonetic symbology.
 The symbol choice for the phonetic output is adjustable by the user, edits
 need only be made in the `fidel.h' file prior to compilation.
 
-The Fidel script output relies on the ``Washra'' family of LaTeX fonts
+The Fidel script output relies on the "Washra" family of LaTeX fonts
 created for the EthTeX package by Abass Alemnehe.  Five sizes are provided.
 
 THIS RELEASE of the sera2latex package has seen very limited testing but
@@ -36,7 +36,7 @@ you may contact me at yacob@apollo.aoe.vt.edu for assistance in this
 area.
 
 
-HOW TO USE  [ The Following May Be Considered the Manual ]
+HOW TO USE
 ==========
 
 After successful installation you may use your favorite ascii editor to write
@@ -213,12 +213,12 @@ the nearest matching glyph will be substituted.
 No number conversion is attempted when going from SERA->Phonetic
 
 If LaTeX tells you: `` ! There's no line here to end. ''
-just hit <return> and continue or look for a \\ on a line by itself and
+just hit &lt;return&gt; and continue or look for a \\ on a line by itself and
 delete it.
    
-If bugs are found in the sera2latex converter, please email them to:
+If bugs are found in the sera2latex converter, please open an issue:
 
-   yacob@apollo.aoe.vt.edu
+	https://github.com/dyacob/sera2latex/issues
 
 
 IF YOU WANT MORE LATEX POWER
@@ -233,22 +233,12 @@ By Web:
 
 By ftp:    Official CTAN Archives
 
-   Geographic                                          
-   Location         Site                  IP Address   
- --------------------------------------------------------
-   United States    ftp.shsu.edu          192.92.115.10
-   United Kingdom   ftp.tex.ac.uk         131.151.79.32
-   Germany          ftp.dante.de          129.206.100.192 
-
-
-By Mail:
-
-   EthiO Systems      
-   P.O. Box 36921     
-   Houston, TX 77236  
-                   
-   Tel   : (713) 995-4360  
-   Email : ethiosys@neosoft.com
+     Geographic                                          
+     Location         Site                  IP Address   
+     --------------------------------------------------------
+     United States    ftp.shsu.edu          192.92.115.10
+     United Kingdom   ftp.tex.ac.uk         131.151.79.32
+     Germany          ftp.dante.de          129.206.100.192 
 
 
 
@@ -256,8 +246,8 @@ SERA
 ====
 
 Extended documents for The System for Ethiopic Representation in ASCII (SERA)
-by World Wide Web at: http://www.cs.indiana.edu/hyplan/dmulholl/fidel/fidel.html
-and http://www.cs.indiana.edu/hyplan/dmulholl/fidel/sera-faq.html .
+by World Wide Web at: http://abyssiniagateway.net/fidel/fidel.html
+and http:/abyssiniagateway.net/fidel/sera-faq.html .
 The file docs/sera-sys.html gives an outline of the ascii system.
 
 Briefly, characters are representation goes like :
