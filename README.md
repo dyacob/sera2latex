@@ -247,8 +247,8 @@ SERA
 ====
 
 Extended documents for The System for Ethiopic Representation in ASCII (SERA)
-by World Wide Web at: http://abyssiniagateway.net/fidel/fidel.html
-and http:/abyssiniagateway.net/fidel/sera-faq.html .
+by World Wide Web at: [http://abyssiniagateway.net/fidel/fidel.html](http://abyssiniagateway.net/fidel/fidel.html)
+and [http:/abyssiniagateway.net/fidel/sera-faq.html](http:/abyssiniagateway.net/fidel/sera-faq.html).
 The file docs/sera-sys.html gives an outline of the ascii system.
 
 Briefly, characters are representation goes like :
