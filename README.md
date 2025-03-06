@@ -204,14 +204,14 @@ LIMITATIONS
 
 This La/TeX filter is not robust!
 
-     Remember \texword{\sera{ }} OK,  \sera{\texword{ }} ... no promises.
+    Remember \texword{\sera{ }} OK,  \sera{\texword{ }} ... no promises.
                                       
  
 Only one font size is available automatically for regular text files.
 
 Some Gurage and Tigrigna series are not available:
 
-     Ge -> Go, Xe -> Xo, &#96;ke -> &#96;ko, and KWe, KWi, KWa, KW, KWE
+    Ge -> Go, Xe -> Xo, `ke -> `ko, and KWe, KWi, KWa, KW, KWE
 
 the nearest matching glyph will be substituted.
 
