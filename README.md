@@ -160,8 +160,10 @@ The complete list of options:
          etc
 
 _________________________________________________________________________
+
   Unless specified, you may use the -f, -g , -l, -s, -tex, -pho, -pre,
   -filt and -stats options together.
+
 -------------------------------------------------------------------------
 
 Samples
