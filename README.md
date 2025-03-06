@@ -16,7 +16,7 @@ TeX and LaTeX output for Fidel [aka Ethiopic, Ge'ez, Abyssinic] script
 or into a Latin based phonetic symbology.
 
 The symbol choice for the phonetic output is adjustable by the user, edits
-need only be made in the `fidel.h' file prior to compilation.
+need only be made in the 'fidel.h' file prior to compilation.
 
 The Fidel script output relies on the "Washra" family of LaTeX fonts
 created for the EthTeX package by Abass Alemnehe.  Five sizes are provided.
@@ -68,8 +68,8 @@ for printing are:
     dvips -f myfile.dvi > myfile.ps
     lpr myfile.ps
 
-Once in postscript form, you may preview with `ghostview', `xpsv', or
-`xpsview' etc.
+Once in postscript form, you may preview with 'ghostview', 'xpsv', or
+'xpsview' etc.
 
 
 The complete list of options:
@@ -203,13 +203,15 @@ LIMITATIONS
 ===========
 
 This La/TeX filter is not robust!
+
      Remember \texword{\sera{ }} OK,  \sera{\texword{ }} ... no promises.
                                       
  
 Only one font size is available automatically for regular text files.
 
 Some Gurage and Tigrigna series are not available:
-     Ge -> Go, Xe -> Xo, `ke -> `ko, and KWe, KWi, KWa, KW, KWE
+
+     Ge -> Go, Xe -> Xo, \`ke -> \`ko, and KWe, KWi, KWa, KW, KWE
 
 the nearest matching glyph will be substituted.
 
