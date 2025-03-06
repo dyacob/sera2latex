@@ -101,7 +101,7 @@ The complete list of options:
                 s2l -s myfile > myfile.tex
 
 -stats) Provides a Fidel table with statistical output of character
-        occurances into the file ``s2l.stats''.
+        occurances into the file "s2l.stats".
 
                 s2l -stats myfile > myfile.tex
 
@@ -124,7 +124,7 @@ The complete list of options:
 -filt) This option is to be used with a document already in TeX or LaTeX
        format.  The filter will find and replace sera encoding marked by
        identifying keywords.  The rest of the document should remain 
-       undisturbed.  The keywords that ``fitler'' searches for serve a
+       undisturbed.  The keywords that "fitler" searches for serve a
        secondary purpose for writing with mixed font sizes.  The definitions
        follow:
 
@@ -138,8 +138,8 @@ The complete list of options:
 
        Useage:  \sera{selam, selamta, selmat \ hello!}
        
-       Note that the ``sera'' keywords describes the encoding within
-       the brackets { and }.  ``Washra'' and ``Washrx'' refer to specific
+       Note that the "sera" keywords describes the encoding within
+       the brackets { and }.  "Washra" and "Washrx" refer to specific
        font tables.  
 
        CAUTION:
@@ -182,9 +182,9 @@ Gemination
 ----------
 
 sera2latex offers different gemination handling for phonetic and fidel
-ouputs.  Under the SERA-95 convention gemination is given by '' following
+ouputs.  Under the SERA-95 convention gemination is given by `''` following
 the character to be geminated.  The result in phonetic transcripiton is
-doubling of the geminated character.  The two traditional styled ``dots''
+doubling of the geminated character.  The two traditional styled "dots"
 are placed over the geminated character for Fidel output.
 
 Example:
@@ -213,7 +213,7 @@ the nearest matching glyph will be substituted.
 
 No number conversion is attempted when going from SERA->Phonetic
 
-If LaTeX tells you: `` ! There's no line here to end. ''
+If LaTeX tells you: " ! There's no line here to end. "
 just hit &lt;return&gt; and continue or look for a \\ on a line by itself and
 delete it.
    
@@ -266,7 +266,7 @@ Briefly, characters are representation goes like :
      Consonants With 12 forms:
      hWe  hWu/hW'  hWi   hWa   hWE 
 
-     *NOTE:  ``a'' may be used in place of ``e'' for the first lone
+     *NOTE:  "a" may be used in place of "e" for the first lone
              vowel ONLY in Amharic text zones.  See INSTALL for 
              setting Amharic as a default language.
 
