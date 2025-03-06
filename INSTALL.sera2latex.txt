@@ -1,0 +1,59 @@
+
+
+BEFORE STARTING
+==============
+
+Prior to compilation you will need to make at least one edit (for the font
+path) to the sera2latex resource file.  Other settings are optional.
+
+
+ADJUSTING DEFAULTS
+------------------
+
+REQUIRED:
+Where will you store your fonts?  On line 5 of the s2l.h file change
+the font path "/u1/yacob/fonts/tex/" to where you choose to store your
+Washra TeX fonts for Fidel.  DO NOT delete the quotation marks, " ",
+around your font directory.  If you are not sure of your complete
+directory name, type `pwd' from within the directory.
+
+
+OPTIONAL:
+
+You may change the default language rules by editing commenting out and
+uncommenting the choices on lines 13-15 of the s2l.h file.  Tigrigna rules
+are the default if no change is made.
+
+The default font size may be reset from `10' on line 7 of the s2l file.
+Other choices are 12, 14, 18, and 36.
+
+The choice of phonetic symbology is adjustable by editing lines 109 
+through 192 of the fidel.h file.
+
+
+TO COMPILE
+==========
+
+To compile :
+
+   % cd sera2latex
+   % make 
+
+You should now be ready to compile and print the files in
+the "docs" directory.  Read the "README" file for usage
+instructions.
+
+
+SETTING UP FONTS
+================
+
+At the sera2latex development site, LaTeX insisted the Fidel fonts
+be given the extension .300pk . If TeX or LaTeX want different
+extension on your system, please link or rename the name accordingly
+or edit line 11 of the s2l.h file to reset the extension used locally.
+
+
+
+
+
+
