@@ -3,7 +3,8 @@
 ## NOTE
 *This is a archived work last updated in 1995, it is not expected to
  build out-of-the-box.  Abundant and better quality solutions are
- available.* 
+ available. The PK in this package are available as TrueType and
+ Ethiopic text may not be authored directly in Unicode.*
               
 
 
