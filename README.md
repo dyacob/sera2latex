@@ -1,7 +1,7 @@
 # FIDEL AND PHONETIC TRANSCRIBER FOR LATEX 
 
 ## NOTE
-*This is a archived work last updated in 1995, it is not expected to
+*This is an archived work last updated in 1995, it is not expected to
  build out-of-the-box.  Abundant and better quality solutions are
  available today. The PK in this package are available as TrueType and
  Ethiopic text may not be authored directly in Unicode.*
